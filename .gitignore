@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Python packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Upload folders (if storing user-generated content temporarily)
+uploads/
+
+# Log files
+*.log
+
+# Flask cache and instance folders
+instance/
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
