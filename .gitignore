@@ -3,10 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 ENV/
 env/
+myenv/
 
 # Environment variables
 .env
@@ -19,16 +20,17 @@ env/
 dist/
 build/
 
-# Upload folders (if storing user-generated content temporarily)
+# Upload folders
 uploads/
 
-# Log files
+# Logs
 *.log
 
-# Flask cache and instance folders
-instance/
+# SQLite or temp DB (if used)
+*.sqlite3
 *.db
 
-# System files
+# Mac and Windows system files
 .DS_Store
 Thumbs.db
+
